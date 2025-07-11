@@ -23,7 +23,7 @@ body{
     
 }
 nav{
-    ;display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
@@ -57,6 +57,63 @@ main{
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+/* see styles */
+.see-section{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+.see-title{
+    font-weight: bold;
+    font-size: 42px;
+  
+}
+.see-sub{
+    font-size: 24px;
+    font-weight: 100;
+    color: #252432;
+}
+.see-img{
+    border-radius: 20px;
+    max-width: 100%;
+}
+/* productive styles */
+.productive{
+    text-align: center;
+    padding: 50px 80px 50px 80px;
+    gap: 10px;
+    border-radius: 24px;
+    background-color:rgba(78, 71, 255, 0.1);
+}
+.productive-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+}
+.productive-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.p-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.productive-name{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: sans-serif;
+    margin-bottom:0%
+}
+.productive-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0%;
 }
 
 
