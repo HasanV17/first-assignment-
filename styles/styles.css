@@ -115,6 +115,46 @@ main{
     font-weight: 300;
     margin-top: 0%;
 }
+/* touch styles */
+.touch-title{
+    font-weight: bold;
+    font-size: 97px;
+    padding: 20px;
+}
+
+/* user styles */
+.user-section{
+    margin-top: 137px;
+    padding: 24px;
+}
+.review{
+    background-color: #F8F8F8;
+    padding: 24px 24px 24px 24px;
+    gap: 24px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) ;
+    border-radius: 10px;
+}
+.review.title{
+    text-align: left;
+    padding: 24px;
+}
+
+.user-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    
+}
+.user-review{
+    display: flex;
+    gap: 20px;
+    
+}
+.user-description{
+    text-align: left;
+}
+
 
 
 
