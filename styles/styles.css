@@ -213,6 +213,40 @@ input {
     border-radius: 8px;
     border: none;
 }
+/* footer styles */
+.footer-section{
+    text-align: center;
+    background-color: white;
+    margin-top: 85px;
+    padding: 104px 455px;
+}
+.footer-title{
+color: #4E47FF;
+font-weight: bolder;
+font-size: 50px;
+font-family:sans-serif;
+margin-bottom: 8px;
+}
+.footer-description{
+    color: #8987A1; 
+}
+.footer-items{
+    display: flex;
+    color:#8987A1;
+    justify-content: space-around;
+
+}
+.footer-list{
+   justify-content: space-around;
+    margin: 0 15px;
+    font-size: 16px;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    color:orange;
+}
 
 
 
